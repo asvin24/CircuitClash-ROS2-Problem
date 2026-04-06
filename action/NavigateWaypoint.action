@@ -1,0 +1,20 @@
+# ==========================================
+# Action Definition Template
+# ==========================================
+
+# 1. Goal/Request (Client -> Server)
+# What the server needs to start the task.
+# Format: <type> <variable_name>
+# (Replace this line with your goal variables)
+---
+
+# 2. Result (Server -> Client)
+# The final outcome sent when the task finishes or fails.
+# Format: <type> <variable_name>
+# (Replace this line with your result variables)
+---
+
+# 3. Feedback (Server -> Client)
+# Continuous updates sent while the task is executing.
+# Format: <type> <variable_name>
+# (Replace this line with your feedback variables)
