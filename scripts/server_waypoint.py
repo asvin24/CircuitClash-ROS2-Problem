@@ -14,7 +14,7 @@ import math
 class WaypointServerNode(Node):
     def __init__(self):
         super().__init__("waypoint_server")
-        self.get_logger().info("Waypoint Server Boilerplate Initialized.")
+        self.get_logger().info("Waypoint Server Initialized.")
         self.cb_group = ReentrantCallbackGroup()
 
         # TODO: Initialize your state variables here (current_x, current_y, yaw)
