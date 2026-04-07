@@ -10,7 +10,7 @@ from waypoint_navigator.action import NavigateWaypoint
 class MissionClientNode(Node):
     def __init__(self):
         super().__init__("mission_client")
-        self.get_logger().info("Mission Client Boilerplate Initialized.")
+        self.get_logger().info("Mission Client Initialized.")
         self.action_client = ActionClient(self, NavigateWaypoint, "navigate_waypoint")
         
         # TODO: Load your coordinates from coordinates.txt or define them here
