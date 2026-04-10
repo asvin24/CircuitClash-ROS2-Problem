@@ -2,7 +2,7 @@
 
 Welcome to the codebase for your ROS 2 hackathon challenge! This repository contains the skeleton code you need to navigate the Leo Rover autonomously using a ROS 2 Action Server and Client.
 
-Your mission is to complete the missing logic inside the `scripts` folder so the rover can read coordinates and drive to them with precision.
+Your mission is to complete the missing logic inside the `scripts` and `action` folder so the rover can read coordinates and drive to them with precision.
 
 ---
 
