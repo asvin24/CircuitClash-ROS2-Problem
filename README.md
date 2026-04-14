@@ -54,7 +54,7 @@ ros2 topic list
 2. Spy on the data flowing through a topic: (Great for checking if odometry is working!)
 
 ```bash
-    ros2 topic echo /leo1/odom
+ros2 topic echo /leo1/odom
 ```
 
 3. List all active actions:
